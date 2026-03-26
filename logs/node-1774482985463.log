@@ -1,0 +1,37 @@
+[2026-03-25T23:56:25.478Z] [INFO] Registered default task handlers
+[2026-03-25T23:56:25.480Z] [INFO] ==================================================
+[2026-03-25T23:56:25.480Z] [INFO] Brixa Node Engine Starting...
+[2026-03-25T23:56:25.480Z] [INFO] Node ID: null
+[2026-03-25T23:56:25.480Z] [INFO] Role: general
+[2026-03-25T23:56:25.480Z] [INFO] Port: 3000
+[2026-03-25T23:56:25.480Z] [INFO] ==================================================
+[2026-03-25T23:56:25.481Z] [INFO] Loaded node state from file
+[2026-03-25T23:56:25.481Z] [INFO] Network layer started
+[2026-03-25T23:56:25.483Z] [INFO] ✓ Node started successfully
+[2026-03-25T23:56:25.483Z] [INFO]   - Node ID: null
+[2026-03-25T23:56:25.483Z] [INFO]   - API: http://localhost:3000
+[2026-03-25T23:56:25.483Z] [INFO]   - Endpoints:
+[2026-03-25T23:56:25.483Z] [INFO]     GET  /health - Health check
+[2026-03-25T23:56:25.483Z] [INFO]     GET  /state  - World state
+[2026-03-25T23:56:25.483Z] [INFO]     POST /task  - Submit task
+[2026-03-25T23:56:25.483Z] [INFO] Running test: world_tick task...
+[2026-03-25T23:56:25.483Z] [INFO] Processing task: task_1774482985483_ot5pi1_1 (world_tick)
+[2026-03-25T23:56:25.483Z] [INFO] Routing task task_1774482985483_ot5pi1_1 of type world_tick
+[2026-03-25T23:56:25.483Z] [INFO] Executing task task_1774482985483_ot5pi1_1 (type: world_tick)
+[2026-03-25T23:56:25.483Z] [INFO] Handling world_tick task
+[2026-03-25T23:56:25.483Z] [INFO] Loaded world state from file
+[2026-03-25T23:56:25.483Z] [INFO] Task task_1774482985483_ot5pi1_1 completed in 0ms
+[2026-03-25T23:56:25.484Z] [INFO] ✓ Test passed: world_tick
+[2026-03-25T23:56:25.484Z] [INFO]   Result: tick #21, 3 entities
+[2026-03-25T23:56:25.488Z] [INFO] API Server listening on http://0.0.0.0:3000
+[2026-03-25T23:56:28.475Z] [INFO] Received task: task_1774482988475_hqv312_2 (dm)
+[2026-03-25T23:56:28.475Z] [INFO] Processing task: task_1774482988475_hqv312_2 (dm)
+[2026-03-25T23:56:28.476Z] [INFO] Routing task task_1774482988475_hqv312_2 of type dm
+[2026-03-25T23:56:28.476Z] [INFO] Executing task task_1774482988475_hqv312_2 (type: dm)
+[2026-03-25T23:56:28.476Z] [INFO] Handling dm task
+[2026-03-25T23:56:28.477Z] [INFO] Task task_1774482988475_hqv312_2 completed in 1ms
+[2026-03-25T23:57:41.859Z] [INFO] Received SIGTERM, shutting down...
+[2026-03-25T23:57:41.859Z] [INFO] Stopping node...
+[2026-03-25T23:57:41.860Z] [INFO] API Server stopped
+[2026-03-25T23:57:41.860Z] [INFO] Network layer stopped
+[2026-03-25T23:57:41.860Z] [INFO] Node stopped

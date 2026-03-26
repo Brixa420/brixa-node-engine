@@ -1,0 +1,48 @@
+[2026-03-25T23:36:20.902Z] [INFO] Registered default task handlers
+[2026-03-25T23:36:20.904Z] [INFO] ==================================================
+[2026-03-25T23:36:20.904Z] [INFO] Brixa Node Engine Starting...
+[2026-03-25T23:36:20.904Z] [INFO] Node ID: null
+[2026-03-25T23:36:20.904Z] [INFO] Role: general
+[2026-03-25T23:36:20.904Z] [INFO] Port: 3000
+[2026-03-25T23:36:20.904Z] [INFO] ==================================================
+[2026-03-25T23:36:20.905Z] [INFO] Network layer started
+[2026-03-25T23:36:20.906Z] [INFO] ✓ Node started successfully
+[2026-03-25T23:36:20.906Z] [INFO]   - Node ID: null
+[2026-03-25T23:36:20.907Z] [INFO]   - API: http://localhost:3000
+[2026-03-25T23:36:20.907Z] [INFO]   - Endpoints:
+[2026-03-25T23:36:20.907Z] [INFO]     GET  /health - Health check
+[2026-03-25T23:36:20.907Z] [INFO]     GET  /state  - World state
+[2026-03-25T23:36:20.907Z] [INFO]     POST /task  - Submit task
+[2026-03-25T23:36:20.907Z] [INFO] Running test: world_tick task...
+[2026-03-25T23:36:20.907Z] [INFO] Processing task: task_1774481780907_grsfy1_1 (world_tick)
+[2026-03-25T23:36:20.907Z] [INFO] Routing task task_1774481780907_grsfy1_1 of type world_tick
+[2026-03-25T23:36:20.907Z] [INFO] Executing task task_1774481780907_grsfy1_1 (type: world_tick)
+[2026-03-25T23:36:20.907Z] [INFO] Handling world_tick task
+[2026-03-25T23:36:20.907Z] [INFO] Task task_1774481780907_grsfy1_1 completed in 0ms
+[2026-03-25T23:36:20.907Z] [INFO] ✓ Test passed: world_tick
+[2026-03-25T23:36:20.907Z] [INFO]   Result: tick #2, 0 entities
+[2026-03-25T23:36:20.911Z] [INFO] API Server listening on http://0.0.0.0:3000
+[2026-03-25T23:36:52.890Z] [INFO] Received task: task_1774481812890_m23qnf_2 (world_update)
+[2026-03-25T23:36:52.892Z] [INFO] Processing task: task_1774481812890_m23qnf_2 (world_update)
+[2026-03-25T23:36:52.892Z] [INFO] Routing task task_1774481812890_m23qnf_2 of type world_update
+[2026-03-25T23:36:52.893Z] [INFO] Executing task task_1774481812890_m23qnf_2 (type: world_update)
+[2026-03-25T23:36:52.893Z] [INFO] Handling world_update task
+[2026-03-25T23:36:52.893Z] [INFO] Task task_1774481812890_m23qnf_2 completed in 0ms
+[2026-03-25T23:36:52.902Z] [INFO] Received task: task_1774481812902_2iin7y_3 (entity_create)
+[2026-03-25T23:36:52.902Z] [INFO] Processing task: task_1774481812902_2iin7y_3 (entity_create)
+[2026-03-25T23:36:52.902Z] [INFO] Routing task task_1774481812902_2iin7y_3 of type entity_create
+[2026-03-25T23:36:52.902Z] [INFO] Executing task task_1774481812902_2iin7y_3 (type: entity_create)
+[2026-03-25T23:36:52.902Z] [INFO] Handling entity_create task
+[2026-03-25T23:36:52.902Z] [INFO] Created entity: player/hero
+[2026-03-25T23:36:52.902Z] [INFO] Task task_1774481812902_2iin7y_3 completed in 0ms
+[2026-03-25T23:36:52.910Z] [INFO] Received task: task_1774481812910_pvqfif_4 (dm)
+[2026-03-25T23:36:52.910Z] [INFO] Processing task: task_1774481812910_pvqfif_4 (dm)
+[2026-03-25T23:36:52.910Z] [INFO] Routing task task_1774481812910_pvqfif_4 of type dm
+[2026-03-25T23:36:52.910Z] [INFO] Executing task task_1774481812910_pvqfif_4 (type: dm)
+[2026-03-25T23:36:52.910Z] [INFO] Handling dm task
+[2026-03-25T23:36:52.910Z] [INFO] Task task_1774481812910_pvqfif_4 completed in 0ms
+[2026-03-25T23:43:03.361Z] [INFO] Received SIGTERM, shutting down...
+[2026-03-25T23:43:03.362Z] [INFO] Stopping node...
+[2026-03-25T23:43:03.362Z] [INFO] API Server stopped
+[2026-03-25T23:43:03.362Z] [INFO] Network layer stopped
+[2026-03-25T23:43:03.362Z] [INFO] Node stopped

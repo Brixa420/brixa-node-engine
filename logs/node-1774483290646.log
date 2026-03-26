@@ -1,0 +1,38 @@
+[2026-03-26T00:01:30.661Z] [INFO] Registered default task handlers
+[2026-03-26T00:01:30.663Z] [INFO] ==================================================
+[2026-03-26T00:01:30.663Z] [INFO] Brixa Node Engine Starting...
+[2026-03-26T00:01:30.663Z] [INFO] Node ID: null
+[2026-03-26T00:01:30.663Z] [INFO] Role: general
+[2026-03-26T00:01:30.663Z] [INFO] Port: 3000
+[2026-03-26T00:01:30.663Z] [INFO] ==================================================
+[2026-03-26T00:01:30.664Z] [INFO] Loaded node state from file
+[2026-03-26T00:01:30.664Z] [INFO] Network layer started
+[2026-03-26T00:01:30.666Z] [INFO] ✓ Node started successfully
+[2026-03-26T00:01:30.666Z] [INFO]   - Node ID: null
+[2026-03-26T00:01:30.666Z] [INFO]   - API: http://localhost:3000
+[2026-03-26T00:01:30.666Z] [INFO]   - Endpoints:
+[2026-03-26T00:01:30.666Z] [INFO]     GET  /health - Health check
+[2026-03-26T00:01:30.666Z] [INFO]     GET  /state  - World state
+[2026-03-26T00:01:30.666Z] [INFO]     POST /task  - Submit task
+[2026-03-26T00:01:30.666Z] [INFO] Running test: world_tick task...
+[2026-03-26T00:01:30.666Z] [INFO] Processing task: task_1774483290666_uboste_1 (world_tick)
+[2026-03-26T00:01:30.666Z] [INFO] Routing task task_1774483290666_uboste_1 of type world_tick
+[2026-03-26T00:01:30.666Z] [INFO] Executing task task_1774483290666_uboste_1 (type: world_tick)
+[2026-03-26T00:01:30.666Z] [INFO] Handling world_tick task
+[2026-03-26T00:01:30.667Z] [INFO] Loaded world state from file
+[2026-03-26T00:01:30.667Z] [INFO] Task task_1774483290666_uboste_1 completed in 1ms
+[2026-03-26T00:01:30.667Z] [INFO] ✓ Test passed: world_tick
+[2026-03-26T00:01:30.667Z] [INFO]   Result: tick #30, 3 entities
+[2026-03-26T00:01:30.671Z] [INFO] API Server listening on http://0.0.0.0:3000
+[2026-03-26T00:01:33.649Z] [INFO] Received task: task_1774483293649_x6rxn2_2 (quest)
+[2026-03-26T00:01:33.649Z] [INFO] Processing task: task_1774483293649_x6rxn2_2 (quest)
+[2026-03-26T00:01:33.650Z] [INFO] Routing task task_1774483293649_x6rxn2_2 of type quest
+[2026-03-26T00:01:33.650Z] [INFO] Executing task task_1774483293649_x6rxn2_2 (type: quest)
+[2026-03-26T00:01:33.650Z] [INFO] Handling quest task: generate
+[2026-03-26T00:01:33.650Z] [INFO] Task task_1774483293649_x6rxn2_2 completed in 0ms
+[2026-03-26T00:02:26.600Z] [INFO] Received task: task_1774483346600_66mzsl_3 (world_tick)
+[2026-03-26T00:02:26.601Z] [INFO] Processing task: task_1774483346600_66mzsl_3 (world_tick)
+[2026-03-26T00:02:26.601Z] [INFO] Routing task task_1774483346600_66mzsl_3 of type world_tick
+[2026-03-26T00:02:26.601Z] [INFO] Executing task task_1774483346600_66mzsl_3 (type: world_tick)
+[2026-03-26T00:02:26.601Z] [INFO] Handling world_tick task
+[2026-03-26T00:02:26.601Z] [INFO] Task task_1774483346600_66mzsl_3 completed in 0ms

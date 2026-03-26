@@ -1,0 +1,50 @@
+[2026-03-25T23:43:25.367Z] [INFO] Registered default task handlers
+[2026-03-25T23:43:25.369Z] [INFO] ==================================================
+[2026-03-25T23:43:25.369Z] [INFO] Brixa Node Engine Starting...
+[2026-03-25T23:43:25.369Z] [INFO] Node ID: null
+[2026-03-25T23:43:25.369Z] [INFO] Role: general
+[2026-03-25T23:43:25.369Z] [INFO] Port: 3000
+[2026-03-25T23:43:25.369Z] [INFO] ==================================================
+[2026-03-25T23:43:25.370Z] [INFO] Loaded node state from file
+[2026-03-25T23:43:25.370Z] [INFO] Network layer started
+[2026-03-25T23:43:25.371Z] [INFO] ✓ Node started successfully
+[2026-03-25T23:43:25.371Z] [INFO]   - Node ID: null
+[2026-03-25T23:43:25.371Z] [INFO]   - API: http://localhost:3000
+[2026-03-25T23:43:25.371Z] [INFO]   - Endpoints:
+[2026-03-25T23:43:25.371Z] [INFO]     GET  /health - Health check
+[2026-03-25T23:43:25.372Z] [INFO]     GET  /state  - World state
+[2026-03-25T23:43:25.372Z] [INFO]     POST /task  - Submit task
+[2026-03-25T23:43:25.372Z] [INFO] Running test: world_tick task...
+[2026-03-25T23:43:25.372Z] [INFO] Processing task: task_1774482205372_ji69b3_1 (world_tick)
+[2026-03-25T23:43:25.372Z] [INFO] Routing task task_1774482205372_ji69b3_1 of type world_tick
+[2026-03-25T23:43:25.372Z] [INFO] Executing task task_1774482205372_ji69b3_1 (type: world_tick)
+[2026-03-25T23:43:25.372Z] [INFO] Handling world_tick task
+[2026-03-25T23:43:25.372Z] [INFO] Loaded world state from file
+[2026-03-25T23:43:25.372Z] [INFO] Task task_1774482205372_ji69b3_1 completed in 0ms
+[2026-03-25T23:43:25.373Z] [INFO] ✓ Test passed: world_tick
+[2026-03-25T23:43:25.373Z] [INFO]   Result: tick #7, 1 entities
+[2026-03-25T23:43:25.376Z] [INFO] API Server listening on http://0.0.0.0:3000
+[2026-03-25T23:43:28.412Z] [INFO] Received task: task_1774482208412_e49rce_2 (entity_create)
+[2026-03-25T23:43:28.412Z] [INFO] Processing task: task_1774482208412_e49rce_2 (entity_create)
+[2026-03-25T23:43:28.413Z] [INFO] Routing task task_1774482208412_e49rce_2 of type entity_create
+[2026-03-25T23:43:28.413Z] [INFO] Executing task task_1774482208412_e49rce_2 (type: entity_create)
+[2026-03-25T23:43:28.413Z] [INFO] Handling entity_create task
+[2026-03-25T23:43:28.413Z] [INFO] Created entity: npc/merchant
+[2026-03-25T23:43:28.414Z] [INFO] Task task_1774482208412_e49rce_2 completed in 0ms
+[2026-03-25T23:44:00.916Z] [ERROR] Handler error: Cannot read properties of undefined (reading 'uncommitted')
+[2026-03-25T23:44:00.933Z] [INFO] Received task: task_1774482240933_8iq7w7_3 (dm)
+[2026-03-25T23:44:00.933Z] [INFO] Processing task: task_1774482240933_8iq7w7_3 (dm)
+[2026-03-25T23:44:00.933Z] [INFO] Routing task task_1774482240933_8iq7w7_3 of type dm
+[2026-03-25T23:44:00.933Z] [INFO] Executing task task_1774482240933_8iq7w7_3 (type: dm)
+[2026-03-25T23:44:00.933Z] [INFO] Handling dm task
+[2026-03-25T23:44:00.933Z] [INFO] Task task_1774482240933_8iq7w7_3 completed in 0ms
+[2026-03-25T23:44:03.309Z] [ERROR] Handler error: Cannot read properties of undefined (reading 'uncommitted')
+[2026-03-25T23:44:23.995Z] [ERROR] Handler error: Cannot read properties of undefined (reading 'uncommitted')
+[2026-03-25T23:44:40.895Z] [ERROR] Handler error: Cannot read properties of undefined (reading 'uncommitted')
+[2026-03-25T23:44:45.023Z] [ERROR] Handler error: Cannot read properties of undefined (reading 'uncommitted')
+[2026-03-25T23:44:47.295Z] [ERROR] Handler error: Cannot read properties of undefined (reading 'uncommitted')
+[2026-03-25T23:44:49.345Z] [INFO] Received SIGTERM, shutting down...
+[2026-03-25T23:44:49.345Z] [INFO] Stopping node...
+[2026-03-25T23:44:49.345Z] [INFO] API Server stopped
+[2026-03-25T23:44:49.345Z] [INFO] Network layer stopped
+[2026-03-25T23:44:49.345Z] [INFO] Node stopped

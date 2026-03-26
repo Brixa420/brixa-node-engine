@@ -1,0 +1,56 @@
+{
+  "tick": 33,
+  "entities": {
+    "player": {
+      "hero": {
+        "id": "hero",
+        "type": "player",
+        "name": "Hero",
+        "createdAt": 1774482314067,
+        "lastUpdate": 1774482314067,
+        "status": "active"
+      }
+    },
+    "npc": {
+      "merchant": {
+        "id": "merchant",
+        "type": "npc",
+        "name": "Bob",
+        "trade": "weapons",
+        "createdAt": 1774482208413,
+        "lastUpdate": 1774482208413,
+        "status": "active"
+      }
+    },
+    "mob": {
+      "goblin": {
+        "id": "goblin",
+        "type": "mob",
+        "hp": 20,
+        "createdAt": 1774482912349,
+        "lastUpdate": 1774482912349,
+        "status": "active"
+      }
+    }
+  },
+  "players": {},
+  "worldTime": 11,
+  "weather": "stormy",
+  "events": [],
+  "lastUpdate": 1774483346601,
+  "quests": {
+    "save_princess": {
+      "id": "save_princess",
+      "title": "Save the Princess",
+      "description": "A new adventure awaits!",
+      "difficulty": "epic",
+      "rewards": {
+        "gold": 100,
+        "xp": 50
+      },
+      "objectives": [],
+      "status": "active",
+      "createdAt": 1774483293650
+    }
+  }
+}

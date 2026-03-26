@@ -1,0 +1,37 @@
+[2026-03-25T23:59:14.352Z] [INFO] Registered default task handlers
+[2026-03-25T23:59:14.354Z] [INFO] ==================================================
+[2026-03-25T23:59:14.354Z] [INFO] Brixa Node Engine Starting...
+[2026-03-25T23:59:14.354Z] [INFO] Node ID: null
+[2026-03-25T23:59:14.354Z] [INFO] Role: general
+[2026-03-25T23:59:14.354Z] [INFO] Port: 3000
+[2026-03-25T23:59:14.354Z] [INFO] ==================================================
+[2026-03-25T23:59:14.355Z] [INFO] Loaded node state from file
+[2026-03-25T23:59:14.355Z] [INFO] Network layer started
+[2026-03-25T23:59:14.357Z] [INFO] ✓ Node started successfully
+[2026-03-25T23:59:14.357Z] [INFO]   - Node ID: null
+[2026-03-25T23:59:14.357Z] [INFO]   - API: http://localhost:3000
+[2026-03-25T23:59:14.357Z] [INFO]   - Endpoints:
+[2026-03-25T23:59:14.357Z] [INFO]     GET  /health - Health check
+[2026-03-25T23:59:14.357Z] [INFO]     GET  /state  - World state
+[2026-03-25T23:59:14.357Z] [INFO]     POST /task  - Submit task
+[2026-03-25T23:59:14.357Z] [INFO] Running test: world_tick task...
+[2026-03-25T23:59:14.357Z] [INFO] Processing task: task_1774483154357_ryvz27_1 (world_tick)
+[2026-03-25T23:59:14.357Z] [INFO] Routing task task_1774483154357_ryvz27_1 of type world_tick
+[2026-03-25T23:59:14.357Z] [INFO] Executing task task_1774483154357_ryvz27_1 (type: world_tick)
+[2026-03-25T23:59:14.357Z] [INFO] Handling world_tick task
+[2026-03-25T23:59:14.358Z] [INFO] Loaded world state from file
+[2026-03-25T23:59:14.358Z] [INFO] Task task_1774483154357_ryvz27_1 completed in 1ms
+[2026-03-25T23:59:14.359Z] [INFO] ✓ Test passed: world_tick
+[2026-03-25T23:59:14.359Z] [INFO]   Result: tick #28, 3 entities
+[2026-03-25T23:59:14.363Z] [INFO] API Server listening on http://0.0.0.0:3000
+[2026-03-25T23:59:17.357Z] [INFO] Received task: task_1774483157357_wibt0l_2 (quest)
+[2026-03-25T23:59:17.358Z] [INFO] Processing task: task_1774483157357_wibt0l_2 (quest)
+[2026-03-25T23:59:17.358Z] [INFO] Routing task task_1774483157357_wibt0l_2 of type quest
+[2026-03-25T23:59:17.358Z] [INFO] Executing task task_1774483157357_wibt0l_2 (type: quest)
+[2026-03-25T23:59:17.358Z] [INFO] Handling quest task: generate
+[2026-03-25T23:59:17.359Z] [ERROR] Task task_1774483157357_wibt0l_2 failed: state is not defined
+[2026-03-26T00:01:29.521Z] [INFO] Received SIGTERM, shutting down...
+[2026-03-26T00:01:29.522Z] [INFO] Stopping node...
+[2026-03-26T00:01:29.522Z] [INFO] API Server stopped
+[2026-03-26T00:01:29.523Z] [INFO] Network layer stopped
+[2026-03-26T00:01:29.523Z] [INFO] Node stopped

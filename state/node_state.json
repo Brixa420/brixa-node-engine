@@ -1,0 +1,11 @@
+{
+  "id": null,
+  "role": "general",
+  "status": "running",
+  "load": 0,
+  "peers": [],
+  "tasksProcessed": 3,
+  "uptime": 5,
+  "lastUpdate": 1774483346601,
+  "port": 3000
+}

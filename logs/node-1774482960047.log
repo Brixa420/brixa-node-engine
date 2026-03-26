@@ -1,0 +1,39 @@
+[2026-03-25T23:56:00.063Z] [INFO] Registered default task handlers
+[2026-03-25T23:56:00.065Z] [INFO] ==================================================
+[2026-03-25T23:56:00.065Z] [INFO] Brixa Node Engine Starting...
+[2026-03-25T23:56:00.065Z] [INFO] Node ID: null
+[2026-03-25T23:56:00.065Z] [INFO] Role: general
+[2026-03-25T23:56:00.065Z] [INFO] Port: 3000
+[2026-03-25T23:56:00.065Z] [INFO] ==================================================
+[2026-03-25T23:56:00.065Z] [INFO] Loaded node state from file
+[2026-03-25T23:56:00.066Z] [INFO] Network layer started
+[2026-03-25T23:56:00.067Z] [INFO] ✓ Node started successfully
+[2026-03-25T23:56:00.068Z] [INFO]   - Node ID: null
+[2026-03-25T23:56:00.068Z] [INFO]   - API: http://localhost:3000
+[2026-03-25T23:56:00.068Z] [INFO]   - Endpoints:
+[2026-03-25T23:56:00.068Z] [INFO]     GET  /health - Health check
+[2026-03-25T23:56:00.068Z] [INFO]     GET  /state  - World state
+[2026-03-25T23:56:00.068Z] [INFO]     POST /task  - Submit task
+[2026-03-25T23:56:00.068Z] [INFO] Running test: world_tick task...
+[2026-03-25T23:56:00.068Z] [INFO] Processing task: task_1774482960068_r5i7cw_1 (world_tick)
+[2026-03-25T23:56:00.068Z] [INFO] Routing task task_1774482960068_r5i7cw_1 of type world_tick
+[2026-03-25T23:56:00.068Z] [INFO] Executing task task_1774482960068_r5i7cw_1 (type: world_tick)
+[2026-03-25T23:56:00.068Z] [INFO] Handling world_tick task
+[2026-03-25T23:56:00.068Z] [INFO] Loaded world state from file
+[2026-03-25T23:56:00.068Z] [INFO] Task task_1774482960068_r5i7cw_1 completed in 0ms
+[2026-03-25T23:56:00.069Z] [INFO] ✓ Test passed: world_tick
+[2026-03-25T23:56:00.069Z] [INFO]   Result: tick #18, 3 entities
+[2026-03-25T23:56:00.073Z] [INFO] API Server listening on http://0.0.0.0:3000
+[2026-03-25T23:56:03.077Z] [INFO] Received task: task_1774482963077_4mfct1_2 (dm)
+[2026-03-25T23:56:03.077Z] [INFO] Processing task: task_1774482963077_4mfct1_2 (dm)
+[2026-03-25T23:56:03.077Z] [INFO] Routing task task_1774482963077_4mfct1_2 of type dm
+[2026-03-25T23:56:03.078Z] [INFO] Executing task task_1774482963077_4mfct1_2 (type: dm)
+[2026-03-25T23:56:03.078Z] [INFO] Handling dm task
+[2026-03-25T23:56:03.079Z] [INFO] Task task_1774482963077_4mfct1_2 completed in 1ms
+[2026-03-25T23:56:03.109Z] [ERROR] Handler error: this.node.getReceipt is not a function
+[2026-03-25T23:56:04.210Z] [ERROR] Handler error: this.node.getReceipt is not a function
+[2026-03-25T23:56:24.294Z] [INFO] Received SIGTERM, shutting down...
+[2026-03-25T23:56:24.295Z] [INFO] Stopping node...
+[2026-03-25T23:56:24.295Z] [INFO] API Server stopped
+[2026-03-25T23:56:24.295Z] [INFO] Network layer stopped
+[2026-03-25T23:56:24.296Z] [INFO] Node stopped

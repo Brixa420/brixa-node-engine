@@ -1,0 +1,40 @@
+[2026-03-25T23:55:09.348Z] [INFO] Registered default task handlers
+[2026-03-25T23:55:09.350Z] [INFO] ==================================================
+[2026-03-25T23:55:09.350Z] [INFO] Brixa Node Engine Starting...
+[2026-03-25T23:55:09.350Z] [INFO] Node ID: null
+[2026-03-25T23:55:09.350Z] [INFO] Role: general
+[2026-03-25T23:55:09.350Z] [INFO] Port: 3000
+[2026-03-25T23:55:09.350Z] [INFO] ==================================================
+[2026-03-25T23:55:09.350Z] [INFO] Loaded node state from file
+[2026-03-25T23:55:09.350Z] [INFO] Network layer started
+[2026-03-25T23:55:09.352Z] [INFO] ✓ Node started successfully
+[2026-03-25T23:55:09.352Z] [INFO]   - Node ID: null
+[2026-03-25T23:55:09.352Z] [INFO]   - API: http://localhost:3000
+[2026-03-25T23:55:09.352Z] [INFO]   - Endpoints:
+[2026-03-25T23:55:09.352Z] [INFO]     GET  /health - Health check
+[2026-03-25T23:55:09.352Z] [INFO]     GET  /state  - World state
+[2026-03-25T23:55:09.352Z] [INFO]     POST /task  - Submit task
+[2026-03-25T23:55:09.352Z] [INFO] Running test: world_tick task...
+[2026-03-25T23:55:09.352Z] [INFO] Processing task: task_1774482909352_t3khp9_1 (world_tick)
+[2026-03-25T23:55:09.353Z] [INFO] Routing task task_1774482909352_t3khp9_1 of type world_tick
+[2026-03-25T23:55:09.353Z] [INFO] Executing task task_1774482909352_t3khp9_1 (type: world_tick)
+[2026-03-25T23:55:09.353Z] [INFO] Handling world_tick task
+[2026-03-25T23:55:09.353Z] [INFO] Loaded world state from file
+[2026-03-25T23:55:09.353Z] [INFO] Task task_1774482909352_t3khp9_1 completed in 0ms
+[2026-03-25T23:55:09.354Z] [INFO] ✓ Test passed: world_tick
+[2026-03-25T23:55:09.354Z] [INFO]   Result: tick #15, 2 entities
+[2026-03-25T23:55:09.357Z] [INFO] API Server listening on http://0.0.0.0:3000
+[2026-03-25T23:55:12.348Z] [INFO] Received task: task_1774482912348_h5a0yg_2 (entity_create)
+[2026-03-25T23:55:12.348Z] [INFO] Processing task: task_1774482912348_h5a0yg_2 (entity_create)
+[2026-03-25T23:55:12.349Z] [INFO] Routing task task_1774482912348_h5a0yg_2 of type entity_create
+[2026-03-25T23:55:12.349Z] [INFO] Executing task task_1774482912348_h5a0yg_2 (type: entity_create)
+[2026-03-25T23:55:12.349Z] [INFO] Handling entity_create task
+[2026-03-25T23:55:12.349Z] [INFO] Created entity: mob/goblin
+[2026-03-25T23:55:12.349Z] [INFO] Task task_1774482912348_h5a0yg_2 completed in 0ms
+[2026-03-25T23:55:12.370Z] [ERROR] Handler error: res is not defined
+[2026-03-25T23:55:13.396Z] [ERROR] Handler error: res is not defined
+[2026-03-25T23:55:58.909Z] [INFO] Received SIGTERM, shutting down...
+[2026-03-25T23:55:58.909Z] [INFO] Stopping node...
+[2026-03-25T23:55:58.910Z] [INFO] API Server stopped
+[2026-03-25T23:55:58.910Z] [INFO] Network layer stopped
+[2026-03-25T23:55:58.910Z] [INFO] Node stopped

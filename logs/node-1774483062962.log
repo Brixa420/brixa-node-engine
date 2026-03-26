@@ -1,0 +1,36 @@
+[2026-03-25T23:57:42.978Z] [INFO] Registered default task handlers
+[2026-03-25T23:57:42.980Z] [INFO] ==================================================
+[2026-03-25T23:57:42.980Z] [INFO] Brixa Node Engine Starting...
+[2026-03-25T23:57:42.981Z] [INFO] Node ID: null
+[2026-03-25T23:57:42.981Z] [INFO] Role: general
+[2026-03-25T23:57:42.981Z] [INFO] Port: 3000
+[2026-03-25T23:57:42.981Z] [INFO] ==================================================
+[2026-03-25T23:57:42.981Z] [INFO] Loaded node state from file
+[2026-03-25T23:57:42.981Z] [INFO] Network layer started
+[2026-03-25T23:57:42.983Z] [INFO] ✓ Node started successfully
+[2026-03-25T23:57:42.983Z] [INFO]   - Node ID: null
+[2026-03-25T23:57:42.983Z] [INFO]   - API: http://localhost:3000
+[2026-03-25T23:57:42.983Z] [INFO]   - Endpoints:
+[2026-03-25T23:57:42.983Z] [INFO]     GET  /health - Health check
+[2026-03-25T23:57:42.983Z] [INFO]     GET  /state  - World state
+[2026-03-25T23:57:42.983Z] [INFO]     POST /task  - Submit task
+[2026-03-25T23:57:42.983Z] [INFO] Running test: world_tick task...
+[2026-03-25T23:57:42.983Z] [INFO] Processing task: task_1774483062983_y1dcyl_1 (world_tick)
+[2026-03-25T23:57:42.983Z] [INFO] Routing task task_1774483062983_y1dcyl_1 of type world_tick
+[2026-03-25T23:57:42.983Z] [INFO] Executing task task_1774483062983_y1dcyl_1 (type: world_tick)
+[2026-03-25T23:57:42.984Z] [INFO] Handling world_tick task
+[2026-03-25T23:57:42.984Z] [INFO] Loaded world state from file
+[2026-03-25T23:57:42.984Z] [INFO] Task task_1774483062983_y1dcyl_1 completed in 1ms
+[2026-03-25T23:57:42.984Z] [INFO] ✓ Test passed: world_tick
+[2026-03-25T23:57:42.984Z] [INFO]   Result: tick #24, 3 entities
+[2026-03-25T23:57:42.988Z] [INFO] API Server listening on http://0.0.0.0:3000
+[2026-03-25T23:57:45.983Z] [INFO] Received task: task_1774483065983_3832h6_2 (quest)
+[2026-03-25T23:57:45.984Z] [INFO] Processing task: task_1774483065983_3832h6_2 (quest)
+[2026-03-25T23:57:45.984Z] [INFO] Routing task task_1774483065983_3832h6_2 of type quest
+[2026-03-25T23:57:45.984Z] [INFO] Executing task task_1774483065983_3832h6_2 (type: quest)
+[2026-03-25T23:57:45.984Z] [ERROR] Task task_1774483065983_3832h6_2 failed: No handler for task type: quest
+[2026-03-25T23:58:36.751Z] [INFO] Received SIGTERM, shutting down...
+[2026-03-25T23:58:36.752Z] [INFO] Stopping node...
+[2026-03-25T23:58:36.752Z] [INFO] API Server stopped
+[2026-03-25T23:58:36.752Z] [INFO] Network layer stopped
+[2026-03-25T23:58:36.752Z] [INFO] Node stopped
