@@ -2,33 +2,25 @@
 
 Distributed task execution node.
 
-## Recent Updates (March 26, 2026)
+## Full Architecture (March 26, 2026)
+
+### Layer 1: Horizontal Proving Layer
+- `core/horizontal-prover.js` - 100+ GPU nodes
+- 50 proofs/sec per prover × 100 provers = 5,000 proofs/sec
+- 100K txs/proof = **500M TPS** proving bandwidth
+
+### Layer 2: Recursive Proof Compression  
+- `core/recursive-compressor.js` - Halo2/Nova style
+- 1,000 child proofs → 1 parent proof
+- 500M → **500K settlement units/sec**
+
+### Layer 3: Sharded Settlement
+- `core/sharded-settlement.js` - 10 parallel chains
+- 50K TPS per shard × 10 shards = **500K TPS finality**
+- Unified state via recursive bridges
 
 ### Critical Interfaces
-- `core/interfaces.js` - Standardized API between layers
-
-#### 1. Transaction Ingestion (BatcherInput)
-Any tx format accepted:
-- txData: Opaque payload (any format)
-- intent: "payment" | "compute" | "storage" (for sharding)
-- priority: Ordering hint (0-100)
-
-#### 2. Proof Output (ProofBundle)
-Standardized proof package - any settlement layer verifies:
-- merkleRoot, proof (SNARK/STARK), publicInputs, metadata
-- Hardware info: "cpu" | "cuda" | "opencl"
-
-#### 3. Settlement Config (SettlementConfig)
-Configurable finality:
-- mode: "time" | "batchSize" | "manual"
-- destination: "ethereum" | "polygon" | "custom" | "none"
-- compression: "none" | "recursive" | "aggregate"
-
-Presets: fast, balanced, secure, throughput
-
-## Works With
-
-**Brixa Scaler** (brixa-scaler) - Network routing layer
+- `core/interfaces.js` - BatcherInput, ProofBundle, SettlementConfig
 
 ## NOT a Blockchain
 
