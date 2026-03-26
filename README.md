@@ -2,25 +2,27 @@
 
 Distributed task execution node.
 
-## Full Architecture (March 26, 2026)
+## Current Status: PoC / Design Document
 
-### Layer 1: Horizontal Proving Layer
-- `core/horizontal-prover.js` - 100+ GPU nodes
-- 50 proofs/sec per prover × 100 provers = 5,000 proofs/sec
-- 100K txs/proof = **500M TPS** proving bandwidth
+This is a proof-of-concept architecture, not production infrastructure.
 
-### Layer 2: Recursive Proof Compression  
-- `core/recursive-compressor.js` - Halo2/Nova style
-- 1,000 child proofs → 1 parent proof
-- 500M → **500K settlement units/sec**
+### What's Working (Validated)
+- core/batch-optimizer.js - Batching (10K-100K txs/proof in simulation)
+- core/pipeline.js - Pipeline architecture concept
+- core/interfaces.js - API definitions (BatcherInput, ProofBundle, SettlementConfig)
 
-### Layer 3: Sharded Settlement
-- `core/sharded-settlement.js` - 10 parallel chains
-- 50K TPS per shard × 10 shards = **500K TPS finality**
-- Unified state via recursive bridges
+### Aspirational (Requires Validation)
+- core/horizontal-prover.js - Stub code, no live GPU network
+- core/recursive-compressor.js - Stub code, no on-chain proofs
+- core/sharded-settlement.js - Stub code, no running chains
 
-### Critical Interfaces
-- `core/interfaces.js` - BatcherInput, ProofBundle, SettlementConfig
+### Realistic Throughput
+- Current: ~5K TPS (local simulation)
+
+### Production Would Require
+- Live GPU proving network (100+ nodes in different datacenters)
+- On-chain recursive proof verification (submit to testnet)
+- Running multi-chain settlement infrastructure
 
 ## NOT a Blockchain
 
