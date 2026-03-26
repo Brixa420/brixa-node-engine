@@ -16,3 +16,7 @@ Distributed task execution node.
 | GET /metrics | Statistics |
 
 Response: task_id, status, result, node_id, execution_time_ms, proof_hash
+
+## NOT a Blockchain
+
+Brixa Node Engine is NOT a blockchain. It connects to any blockchain for settlement.
